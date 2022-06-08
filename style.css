@@ -1,0 +1,123 @@
+body {
+  background-color: black;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: black;
+}
+
+.profile {
+  background-color: #fff;
+  padding: 0 30px 30px;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.title-profile {
+  display: inline-block;
+  font-size: 35px;
+  margin-bottom: 50px;
+  animation: slide 2s;
+}
+
+.cont-profile {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slide 2s;
+}
+
+.img-profile {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.line {
+  margin: 40px 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #bdbdbd;
+}
+
+.line.first {
+  animation: slide 2s;
+}
+
+.line.second {
+  animation: slide 2s;
+}
+
+.cont-introduce {
+  animation: slide 2s;
+}
+
+.span-subtitle {
+  font-size: 25px;
+  font-weight: bold;
+  color: orange;
+}
+
+.subtitle {
+  color: orange;
+  font-size: 30px;
+}
+
+.span-txt {
+  background-color: #d3d3d3;
+  border-radius: 8px;
+}
+
+.list-project {
+  list-style: none;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.txt-strong {
+  font-weight: bold;
+}
+
+.span-date {
+  font-size: 15px;
+  color: gray;
+}
+
+.p-bold {
+  font-weight: 600;
+}
+
+.list-education {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first {
+  animation: slide 2s;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    margin-bottom: 20%;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
